@@ -23,7 +23,7 @@
    - **호스팅:** Cloudflare Pages (정적 웹앱)
    - **역할:** 시간 가속(배속) 스트레스 테스트, 가상 그리드 배치 빌더, 실시간 물류 정체 연산.
 
-### 📂 데이터 구조 (Data Directory)
+### 📂 데이터 구조
 
 모든 데이터는 효율적인 관리와 확장성을 위해 3개의 JSON 파일로 분할 관리됩니다.
 
@@ -31,7 +31,7 @@
 * `data/machines.json`: 채굴기, 용해로, 조립기 등 가공 장비의 소모 전력, 기본 가속 비율 데이터.
 * `data/recipes.json`: 기계 ID와 자원 ID를 연계하여 1회 작동 시간(Cycle Time), 입력(Input), 출력(Output) 자원 수량을 정의한 제작 공식 데이터.
 
-### 🤝 기여 방법 (Contribution)
+### 🤝 기여 방법
 
 이 프로젝트는 전 세계 엔드필드 공장장들의 집단지성으로 유지됩니다. 
 인게임 패치로 인해 수치가 변경되었거나, 오타 및 데이터 누락을 발견하셨다면 언제든 **Issue**를 생성하거나 **Pull Request (PR)**를 보내주세요!
@@ -40,11 +40,13 @@
 2. `data/` 폴더 내의 JSON 파일을 수정합니다.
 3. 변경 사항을 Commit 후 PR을 제출해 주시면 검토 후 메인 데이터에 반영됩니다.
 
-### ⚠️ 면책 조항 (Disclaimer)
+### ⚠️ 안내 및 면책 조항
 
-* 본 프로젝트는 《명일방주: 엔드필드》를 즐기는 유저들을 위해 제작된 **비영리 목적의 팬 메이드 프로젝트(Fan-made Tool)**입니다.
-* 본 저장소에 포함된 모든 게임 데이터, 자원 이름, 아이콘 이미지 등의 저작권 및 지식재산권(IP)은 원저작권자인 **하이퍼그리프(Hypergryph / Gryphline)**에 있습니다.
-* 상업적 이용을 절대 금하며, 원저작권자의 요청이 있을 경우 본 저장소는 예고 없이 변경 또는 삭제될 수 있습니다.
+이 툴은 《명일방주: 엔드필드》를 사랑하는 팬이 개인적인 연구와 학습, 그리고 즐거운 공장 설계를 돕기 위해 만든 비영리 목적의 팬메이드 공간입니다. 따라서 개발사인 Hypergryph 및 글로벌 배급사인 Gryphline과는 아무런 공식 제휴나 연관 관계가 없습니다.
+
+시뮬레이터 특성상 정기적인 인게임 패치나 눈에 보이지 않는 미세한 변수 때문에 실제 게임 내 결과와는 다소 오차가 발생할 수 있습니다. 어디까지나 공장 효율을 고민하실 때 방향을 잡는 참고용 가이드로 가볍게 활용해 주시길 부탁드리며, 본 툴의 계산 결과를 신뢰하고 활용하는 과정에서 발생하는 계정 문제나 손해에 대해 제작자는 법적인 책임을 지지 않습니다.
+
+게임 내 자원 이름과 이미지 등 모든 리소스의 저작권은 원저작권자에게 귀속되며, 상업적 이용은 절대 금지합니다. 향후 공식 퍼블리셔의 삭제 요청이나 이의 제기가 있을 경우 본 저장소와 툴은 예고 없이 즉시 수정되거나 배포가 중단될 수 있습니다.
 
 ---
 
@@ -85,11 +87,13 @@ This project is maintained by the collective intelligence of Endfield factory ma
 2. Modify the JSON files in the `data/` folder.
 3. Commit your changes and submit a PR. It will be reviewed and merged into the main data.
 
-### ⚠️ Disclaimer
+### ⚠️ Disclaimer & Guidelines
 
-* This project is a **non-profit, fan-made tool** created for players who enjoy *Arknights: Endfield*.
-* The copyrights and intellectual property (IP) of all game data, resource names, and icon images included in this repository belong to the original developer, **Hypergryph / Gryphline**.
-* Commercial use is strictly prohibited. This repository may be modified or deleted without prior notice upon request from the copyright holder.
+This is an unofficial, non-profit fan-made tool created purely out of passion to help players plan their factories in Arknights: Endfield. It is not affiliated with, endorsed by, or officially connected to Hypergryph or Gryphline.
+
+Please note that due to regular in-game updates, patches, and hidden variables, calculation and simulation results may not perfectly match the actual gameplay. We kindly ask you to use this tool as a general guide and reference only. The creator assumes no legal responsibility for any direct or indirect issues or game account damages arising from the use of this data.
+
+All intellectual property, resource icons, and names belong to their respective owners, Hypergryph and Gryphline. Commercial use is strictly prohibited. We fully respect these rights, and this repository will be promptly modified or removed without prior notice upon request from the official publisher.
 
 ---
 
